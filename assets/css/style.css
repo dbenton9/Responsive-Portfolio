@@ -237,3 +237,149 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media query - max width 640px */
+@media screen and (max-width: 640px) {
+    
+    /* static header */
+    #masthead {
+      position: static;
+      margin: 0px;
+    }
+    /* name tag */
+    #logo {
+        width: 100%;
+    }
+
+    /* nav bar */
+    nav {
+      width: 100%;
+        float: none;
+        margin: 0px;
+    }
+    nav a {
+      width: 32%;
+      text-align: center;
+      margin: 0px;
+        }
+
+    /* main content */
+    #main-container {
+      padding-top: 0px;
+      float: right;
+      padding: 3%;
+    }
+    
+    h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .main-section {
+      margin: auto;
+      width: 100%;
+    }
+
+    .auth-image {
+      width: 100%;
+    }
+    /* Portfolio Page */
+    .work img {
+      width: 100%;
+    }
+
+    /* sidebar/connect */
+    .sidebar {
+      margin-top: 5%;
+        float: left;
+        max-width: 100%;  
+    }
+
+    #connect {
+      float: 
+    }
+
+    /* footer */
+    footer {
+        width: 100%;
+
+    }
+}
+
+/* media query - max width 768px */
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+  /* container (header) */
+  .container {
+     padding: 0% 3%; 
+
+  }
+  /* main content */
+    #main-container {
+      padding-top: 0px;
+      float: right;
+      padding: 15% 3% 3%;
+    }
+
+    .main-section {
+      float: left;
+      max-width: 100%;
+      /* margin: auto;
+      width: 100%; */
+    }
+
+  /* sidebar/connect */
+      .sidebar {
+        margin-top: 1%;
+          float: left;
+          max-width: 100%;  
+      }
+
+}
+
+/* media query - max width 980px */
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  
+    /* container (header) */
+    .container {
+     padding: 0% 8%; 
+    }
+    /* main content */
+    #main-container {
+      padding-top: 0px;
+      float: right;
+      padding: 11% 8% 5%
+
+    }
+    
+    h1 {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    
+    .main-section {
+      margin: auto;      
+      max-width: 55%;
+    }
+
+    .auth-image {
+      width: 100%;
+    }
+    /* Portfolio Page */
+    .work {
+      max-width: 60%;
+    }
+
+
+
+    /* footer */
+    footer {
+        width: 100%;
+
+}
+
+
+
+
+
+
